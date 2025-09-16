@@ -2,8 +2,6 @@ import pandas as pd
 import unicodedata
 import requests
 import random
-from PIL import Image
-from io import BytesIO
 
 #cargo el excel
 url = "https://docs.google.com/spreadsheets/d/1f3FDyCojxebsl3EL6n2dyEq-SxAYPBsAlRAgq7oSiBQ/export?format=xlsx"
@@ -40,3 +38,4 @@ def quizPaisCapitalAmericaSur(df):
 
 
 quizPaisCapitalAmericaSur(df)
+#prueba
