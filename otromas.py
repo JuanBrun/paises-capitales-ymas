@@ -126,7 +126,7 @@ class QuizWindow(tk.Toplevel):
     def __init__(self, parent, df):
         super().__init__(parent)
         self.title("Quiz de Países y Capitales")
-        self.geometry("600x450")
+        self.geometry("800x450")
         self.configure(bg="#ffffff")
         self.resizable(False, False)
         
